@@ -1,9 +1,8 @@
 const { AdhocServer } = require('hunantet-server');
 
-const server = new AdhocServer({
-    port: 27312
-});
+const port = process.env.PORT || 27312;
+const server = new AdhocServer({ port: parseInt(port) });
 
 server.start(() => {
-    console.log('PPSSPP AdHoc Server running on port 27312');
+    console.log(`Server PPSSPP aktif di port ${port}`);
 });
