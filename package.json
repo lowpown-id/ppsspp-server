@@ -1,7 +1,6 @@
 {
-  "name": "ppsspp-adhoc-server",
+  "name": "ppsspp-server",
   "version": "1.0.0",
-  "description": "Dedicated AdHoc Server for PPSSPP",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
