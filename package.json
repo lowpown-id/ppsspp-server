@@ -6,7 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "adhoc-server": "^1.0.0"
+    "adhoc-server": "github:Hunantet/HunantetServer"
   },
   "engines": {
     "node": ">=18.0.0"
