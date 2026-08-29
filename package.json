@@ -6,7 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "hunantet-server": "^1.0.0"
+    "adhoc-server": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
