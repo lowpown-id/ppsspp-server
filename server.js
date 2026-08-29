@@ -5,6 +5,6 @@ const server = new AdhocServer({
     port: parseInt(PORT)
 });
 
-server.listen(PORT, () => {
+server.start(() => {
     console.log(`Server PPSSPP berjalan di port ${PORT}`);
 });
